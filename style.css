@@ -1,0 +1,102 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.container {
+  height: 50px;
+  width: 1000px;
+  background-color: goldenrod;
+  border-radius: 50px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  position: relative;
+  top: 70px;
+  left: 300px;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.container:hover {
+  background-color: grey;
+}
+i {
+  font-size: 30px;
+}
+
+.box1 {
+  height: 40px;
+  width: 50px;
+  background-color: red;
+  position: relative;
+  left: 25px;
+  top: 5px;
+}
+#layer {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  left: 4%;
+}
+.box2 {
+  height: 40px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: relative;
+  top: 2px;
+}
+#magnifying {
+  font-size: 20px;
+  color: red;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.box3 {
+  height: 40px;
+  width: 100px;
+  position: relative;
+  top: 5px;
+  left: 120px;
+}
+#plus {
+  font-size: 40px;
+  color: white;
+}
+p {
+  color: white;
+  display: inline-flex;
+  font-size: 25px;
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  justify-content: space-between;
+}
+.box4 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 5px;
+  left: 30px;
+}
+#bell {
+  color: white;
+  position: relative;
+  left: 38px;
+  top: 5px;
+}
+
+.box5 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  margin-right: 60px;
+  margin-top: 5px;
+}
+
+#gear {
+  color: white;
+  position: relative;
+  font-size: 30px;
+  margin-top: 5px;
+}
